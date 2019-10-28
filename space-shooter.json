@@ -1,0 +1,1147 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adMobAppId": "",
+    "folderProject": true,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "landscape",
+    "packageName": "com.gdevelop.gdblade",
+    "projectFile": "C:\\Users\\john6.000\\Documents\\GDevelop projects\\My project3\\space-shooter.json",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "GD Blade",
+    "author": "",
+    "windowWidth": 160,
+    "windowHeight": 90,
+    "latestCompilationDirectory": "/Users/florian/Desktop/test export 2",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player Ship/idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player Ship/idle1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player Ship/idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player Ship/idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player Ship/up1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player Ship/up1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player Ship/up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player Ship/up2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player Ship/down1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player Ship/down1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player Ship/down2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player Ship/down2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/space bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/background/space bg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/corridor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/background/corridor.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/asteroid/asteroid1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/asteroid/asteroid1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/asteroid/asteroid2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/asteroid/asteroid2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/asteroid/asteroid3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/asteroid/asteroid3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy200.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy200.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy201.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy201.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy202.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy202.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy203.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy203.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy204.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy204.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy205.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy205.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy206.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy206.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy207.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy207.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy208.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy208.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy209.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy209.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy210.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy210.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy2/enemy211.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy2/enemy211.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player Ship/bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player Ship/bullet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/powerUp/powerUp00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/powerUp/powerUp00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/powerUp/powerUp01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/powerUp/powerUp01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/powerUp/powerUp02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/powerUp/powerUp02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/powerUp/powerUp03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/powerUp/powerUp03.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/powerUp/powerUp04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/powerUp/powerUp04.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/explosion00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/explosion/explosion00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/explosion01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/explosion/explosion01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/explosion02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/explosion/explosion02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/explosion03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/explosion/explosion03.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/explosion04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/explosion/explosion04.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/explosion05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/explosion/explosion05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy3/enemy3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy3/enemy3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy bullet/enemyBullet00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy bullet/enemyBullet00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy bullet/enemyBullet01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy bullet/enemyBullet01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy bullet/enemyBullet02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy bullet/enemyBullet02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy1/idle Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy1/idle Left.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy1/turn left (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy1/turn left (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy1/turn left (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy1/turn left (2).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy1/turn left (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy1/turn left (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy1/turn left (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy1/turn left (4).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy1/turn left (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/enemy1/turn left (5).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/sfx_shieldDown.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/sfx_shieldDown.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sfx_twoTone.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/sfx_twoTone.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/sfx_laser1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/sfx_laser1.ogg",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player Ship/attack flame00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player Ship/attack flame00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player Ship/attack flame01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player Ship/attack flame01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Heal.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/Heal.wav",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/life counter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/life counter.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/life bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/life bar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/idle1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/up (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/up (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/up (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/up (2).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/down (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/down (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/down (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/down (2).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/robo change00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robo change00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/robo change01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robo change01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/robo change02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robo change02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/robo change03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robo change03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/mech_attack00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/mech_attack00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/mech_attack01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/mech_attack01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/mech_attack02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/mech_attack02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/mech_attack03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/mech_attack03.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/mech_attack04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/mech_attack04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/mech_attack05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/mech_attack05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/mech_attack06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/mech_attack06.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/playerMech/mech_attack_area.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playerMech/mech_attack_area.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles mechanical/tiles mechanical 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles mechanical/tiles mechanical 1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles mechanical/tiles mechanical 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles mechanical/tiles mechanical 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/change button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/change button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/body/idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/body/idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/body/attack preparation (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/body/attack preparation (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/body/attack preparation (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/body/attack preparation (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/body/attack preparation (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/body/attack preparation (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/body/attack preparation (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/body/attack preparation (4).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/body/attack preparation (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/body/attack preparation (5).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/deploy (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/deploy (6).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/deploy (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/deploy (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/deploy (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/deploy (2).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/deploy (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/deploy (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/deploy (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/deploy (4).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/deploy (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/deploy (5).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/broken (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/broken (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/broken (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/broken (2).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/broken (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/broken (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/broken (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/broken (4).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/broken (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/broken (5).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/top/broken (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/top/broken (6).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/deploy (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/deploy (6).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/deploy (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/deploy (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/deploy (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/deploy (2).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/deploy (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/deploy (3).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/deploy (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/deploy (4).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/deploy (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/deploy (5).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/broken (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/broken (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/broken (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/broken (2).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/broken (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/broken (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/broken (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/broken (4).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/broken (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/broken (5).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/arms/bottom/broken (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/arms/bottom/broken (6).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/laser/super_laser00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/laser/super_laser00.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/laser/super_laser01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/laser/super_laser01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/boss background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/background/boss background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/body/attack preparation (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/body/attack preparation (6).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/body/boss body broken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boss/body/boss body broken.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/black rectangle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/black rectangle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gameover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/gameover.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/backandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/vibratingcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spaceshootercontrols"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
