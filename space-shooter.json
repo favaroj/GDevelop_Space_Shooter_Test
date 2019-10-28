@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.gdevelop.gdblade",
-    "projectFile": "C:\\Users\\john6.000\\Documents\\GDevelop projects\\My project3\\space-shooter.json",
+    "projectFile": "C:\\Users\\john6.000\\Documents\\GitHub\\GDevelop_Space_Shooter_Test\\space-shooter.json",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -1090,6 +1090,24 @@
         "name": "assets/gameover.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "JohnSceneObject1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "JohnSceneObject1-1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1101,6 +1119,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/johnscene"
     }
   ],
   "externalEvents": [],
